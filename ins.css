@@ -1,0 +1,52 @@
+body {
+  background-color: #25262e;
+  padding: 0;
+  margin: 0;
+  min-height: 20vh;
+}
+/**********************************************header******************************************/
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px;
+  border-radius: 30%;
+}
+a:hover {
+  color: red;
+}
+ul {
+  color: transparent;
+  display: inline;
+  margin: 40;
+  padding: 50;
+}
+a {
+  color: black;
+}
+h3 {
+  color: #c7940a;
+}
+/**************************************************main****************************************/
+main {
+  border-style: solid;
+  border-color: rgb(11, 11, 11);
+  display: flex;
+  display: inline-block;
+  align-content: center;
+  width: 380px;
+  height: 420px;
+}
+input {
+  width: 180px;
+}
+.presentation {
+  color: rgb(32, 148, 17);
+}
+input[type="submit"] {
+  background-color: #17a2b8;
+  margin-top: 15px;
+  color: aliceblue;
+  border: 1px solid #17a2b8;
+  cursor: pointer;
+  width: 300px;
+}
